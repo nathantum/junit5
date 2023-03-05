@@ -42,5 +42,20 @@ public class ParameterizedTests {
         System.out.println("param1 = " + param1 + ", param2 = " + param2);
     }
 
+    @ParameterizedTest
+    @CsvFileSource(files = {"src/test/resources/params/shoppingList.csv", "src/test/resources/params/shoppingList2.csv"}, numLinesToSkip = 1)
+    void csvFileSource_StringDoubleIntString(String name, double price, int qty, String uom,
+                                             String provider){
+        System.out.println("name = " + name + ", price = " + price + ", qty = " + qty + ", uom = " + uom + ", provider = " + provider);
+    };
+
+    @ParameterizedTest
+    @CsvFileSource(files = "src/test/resources/params/shoppingList3.csv", numLinesToSkip = 1, delimiterString = "___")
+    void csvFileSource_StringDoubleIntStringSpecialDelimeter(String name, double price, int qty, String uom,
+                                             String provider){
+        System.out.println("name = " + name + ", price = " + price + ", qty = " + qty + ", uom = " + uom + ", provider = " + provider);
+    };
+
+
 
 }
