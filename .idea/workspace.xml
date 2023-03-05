@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f244b9-3ef1-41b7-8b3e-252172dfc59b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/FirstTestClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/ParameterizedTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit5tests/FirstTestClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit5tests/FirstTestClass.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.FirstTestClass">
+  <component name="RunManager" selected="JUnit.ParameterizedTests.stringValues">
     <configuration name="FirstTestClass" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -80,8 +81,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ParameterizedTests.intValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit5tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
+      <option name="METHOD_NAME" value="intValues(int)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ParameterizedTests.stringValues" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit5tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
+      <option name="METHOD_NAME" value="stringValues(java.lang.String)" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ParameterizedTests.stringValues" />
+        <item itemvalue="JUnit.ParameterizedTests.intValues" />
         <item itemvalue="JUnit.FirstTestClass" />
         <item itemvalue="JUnit.FirstTestClass.firstMethod" />
       </list>
