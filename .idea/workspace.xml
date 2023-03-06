@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f244b9-3ef1-41b7-8b3e-252172dfc59b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/ParamProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/AssumptionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/DisableEnableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/OrderedTestClass1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/OrderedTestClass2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/junit5tests/ParameterizedTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit5tests/ParameterizedTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,9 @@
     <option name="skipTests" value="true" />
   </component>
   <component name="ProjectId" id="2Ma7qU0QNbZtvnfXTDAiojsksyZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,16 +51,31 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/nathantum/Desktop/TestAutomation/junit5/src/test/resources/params"
+    "last_opened_file_path": "/Users/nathantum/Desktop/TestAutomation/junit5/src/test/resources/params",
+    "settings.editor.selected.configurable": "preferences.keymap"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/resources/params" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="junit5tests" />
+    </key>
   </component>
-  <component name="RunManager" selected="JUnit.ParameterizedTests.methodSource_StringDoubleStream">
-    <configuration name="ParameterizedTests.csvFileSource_StringDoubleIntStringSpecialDelimeter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.DisableEnableTest">
+    <configuration name="Default" type="JUnit" factoryName="JUnit">
+      <module name="junit5" />
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.AssumptionTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea Denv=staging" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisableEnableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -65,84 +84,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
-      <option name="METHOD_NAME" value="csvFileSource_StringDoubleIntStringSpecialDelimeter(java.lang.String,double,int,java.lang.String,java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.DisableEnableTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ParameterizedTests.methodSource_String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
-      <option name="METHOD_NAME" value="methodSource_String(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterizedTests.methodSource_StringDoubleList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
-      <option name="METHOD_NAME" value="methodSource_StringDoubleList(java.lang.String,double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterizedTests.methodSource_StringDoubleStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
-      <option name="METHOD_NAME" value="methodSource_StringDoubleStream(java.lang.String,double)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ParameterizedTests.methodSource_StringStream" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.ParameterizedTests" />
-      <option name="METHOD_NAME" value="methodSource_StringStream(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+    <list>
+      <item itemvalue="JUnit.Default" />
+      <item itemvalue="JUnit.DisableEnableTest" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ParameterizedTests.methodSource_StringDoubleStream" />
-        <item itemvalue="JUnit.ParameterizedTests.methodSource_StringDoubleList" />
-        <item itemvalue="JUnit.ParameterizedTests.methodSource_StringStream" />
-        <item itemvalue="JUnit.ParameterizedTests.methodSource_String" />
-        <item itemvalue="JUnit.ParameterizedTests.csvFileSource_StringDoubleIntStringSpecialDelimeter" />
+        <item itemvalue="JUnit.DisableEnableTest" />
       </list>
     </recent_temporary>
   </component>
@@ -159,5 +113,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
