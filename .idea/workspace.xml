@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f244b9-3ef1-41b7-8b3e-252172dfc59b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/RepeatedTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/junit5tests/taggedTestClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,8 +60,8 @@
       <recent name="junit5tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertionsTest.assertEqualsTest">
-    <configuration name="AssertionsTest.assertEqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AssertionsTest.assertAllTest">
+    <configuration name="AssertionsTest.assertAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -73,7 +71,71 @@
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
       <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertEqualsTest" />
+      <option name="METHOD_NAME" value="assertAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsTest.assertArraysEqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit5tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
+      <option name="METHOD_NAME" value="assertArraysEqualsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsTest.assertEqualsListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit5tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
+      <option name="METHOD_NAME" value="assertEqualsListTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsTest.assertThrowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit5tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
+      <option name="METHOD_NAME" value="assertThrowsTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssertionsTest.assertTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="junit5" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="junit5tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="junit5tests" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
+      <option name="METHOD_NAME" value="assertTrueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -90,84 +152,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DisableEnableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.DisableEnableTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatedTests.firstRepeatedMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.RepeatedTests" />
-      <option name="METHOD_NAME" value="firstRepeatedMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatedTests.secondRepeatedMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.RepeatedTests" />
-      <option name="METHOD_NAME" value="secondRepeatedMethod" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RepeatedTests.thirdRepeatedMethod" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.RepeatedTests" />
-      <option name="METHOD_NAME" value="thirdRepeatedMethod(org.junit.jupiter.api.RepetitionInfo)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.Default" />
-      <item itemvalue="JUnit.AssertionsTest.assertEqualsTest" />
-      <item itemvalue="JUnit.DisableEnableTest" />
-      <item itemvalue="JUnit.RepeatedTests.firstRepeatedMethod" />
-      <item itemvalue="JUnit.RepeatedTests.secondRepeatedMethod" />
-      <item itemvalue="JUnit.RepeatedTests.thirdRepeatedMethod" />
+      <item itemvalue="JUnit.AssertionsTest.assertAllTest" />
+      <item itemvalue="JUnit.AssertionsTest.assertArraysEqualsTest" />
+      <item itemvalue="JUnit.AssertionsTest.assertEqualsListTest" />
+      <item itemvalue="JUnit.AssertionsTest.assertThrowsTest" />
+      <item itemvalue="JUnit.AssertionsTest.assertTrueTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AssertionsTest.assertEqualsTest" />
-        <item itemvalue="JUnit.RepeatedTests.thirdRepeatedMethod" />
-        <item itemvalue="JUnit.RepeatedTests.secondRepeatedMethod" />
-        <item itemvalue="JUnit.RepeatedTests.firstRepeatedMethod" />
-        <item itemvalue="JUnit.DisableEnableTest" />
+        <item itemvalue="JUnit.AssertionsTest.assertAllTest" />
+        <item itemvalue="JUnit.AssertionsTest.assertThrowsTest" />
+        <item itemvalue="JUnit.AssertionsTest.assertTrueTest" />
+        <item itemvalue="JUnit.AssertionsTest.assertArraysEqualsTest" />
+        <item itemvalue="JUnit.AssertionsTest.assertEqualsListTest" />
       </list>
     </recent_temporary>
   </component>
