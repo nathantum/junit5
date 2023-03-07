@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="40f244b9-3ef1-41b7-8b3e-252172dfc59b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/listener/Listener.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/junit5tests/DisableEnableTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit5tests/DisableEnableTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,9 +36,6 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenRunner">
-    <option name="skipTests" value="true" />
-  </component>
   <component name="ProjectId" id="2Ma7qU0QNbZtvnfXTDAiojsksyZ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -61,8 +60,17 @@
       <recent name="junit5tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertionsTest.assertForContainsAnyOrder">
-    <configuration name="AssertionsTest.assertAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test -Dtest = firstTestClass" />
+      <command value="mvn test -Dtest :firstTestClass" />
+      <command value="mvn test -Dtest : FirstTestClass" />
+      <command value="mvn test -Dtest = FirstTestClass" />
+      <command value="mvn test -DtestPackage = junit5tests" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.DisableEnableTest">
+    <configuration name="AssertionsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -72,13 +80,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
       <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertAllTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTest.assertForAnyOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DisableEnableTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -87,87 +94,30 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertForAnyOf" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="junit5tests.DisableEnableTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTest.assertForContainsAnyOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tags(sanity)" type="JUnit" factoryName="JUnit">
       <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertForContainsAnyOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionsTest.assertForList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertForList" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AssertionsTest.assertForMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="junit5" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="junit5tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertForMapTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Default" type="JUnit" factoryName="JUnit">
-      <module name="junit5" />
-      <option name="PACKAGE_NAME" value="junit5tests" />
-      <option name="MAIN_CLASS_NAME" value="junit5tests.AssumptionTest" />
       <option name="METHOD_NAME" value="" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea Denv=staging" />
+      <tag value="sanity" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.Default" />
-      <item itemvalue="JUnit.AssertionsTest.assertAllTest" />
-      <item itemvalue="JUnit.AssertionsTest.assertForAnyOf" />
-      <item itemvalue="JUnit.AssertionsTest.assertForContainsAnyOrder" />
-      <item itemvalue="JUnit.AssertionsTest.assertForList" />
-      <item itemvalue="JUnit.AssertionsTest.assertForMapTest" />
+      <item itemvalue="JUnit.Tags(sanity)" />
+      <item itemvalue="JUnit.AssertionsTest" />
+      <item itemvalue="JUnit.DisableEnableTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AssertionsTest.assertForContainsAnyOrder" />
-        <item itemvalue="JUnit.AssertionsTest.assertForAnyOf" />
-        <item itemvalue="JUnit.AssertionsTest.assertForList" />
-        <item itemvalue="JUnit.AssertionsTest.assertForMapTest" />
-        <item itemvalue="JUnit.AssertionsTest.assertAllTest" />
+        <item itemvalue="JUnit.DisableEnableTest" />
+        <item itemvalue="JUnit.AssertionsTest" />
       </list>
     </recent_temporary>
   </component>
