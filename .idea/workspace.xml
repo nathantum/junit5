@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="40f244b9-3ef1-41b7-8b3e-252172dfc59b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/junit5tests/AssertionsTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,7 +61,7 @@
       <recent name="junit5tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.AssertionsTest.assertAllTest">
+  <component name="RunManager" selected="JUnit.AssertionsTest.assertForContainsAnyOrder">
     <configuration name="AssertionsTest.assertAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
@@ -77,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTest.assertArraysEqualsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertionsTest.assertForAnyOf" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -87,13 +88,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
       <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertArraysEqualsTest" />
+      <option name="METHOD_NAME" value="assertForAnyOf" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTest.assertEqualsListTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertionsTest.assertForContainsAnyOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -103,13 +104,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
       <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertEqualsListTest" />
+      <option name="METHOD_NAME" value="assertForContainsAnyOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTest.assertThrowsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertionsTest.assertForList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -119,13 +120,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
       <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertThrowsTest" />
+      <option name="METHOD_NAME" value="assertForList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AssertionsTest.assertTrueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AssertionsTest.assertForMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="junit5" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="junit5tests" />
       <option name="MAIN_CLASS_NAME" value="junit5tests.AssertionsTest" />
-      <option name="METHOD_NAME" value="assertTrueTest" />
+      <option name="METHOD_NAME" value="assertForMapTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -155,18 +156,18 @@
     <list>
       <item itemvalue="JUnit.Default" />
       <item itemvalue="JUnit.AssertionsTest.assertAllTest" />
-      <item itemvalue="JUnit.AssertionsTest.assertArraysEqualsTest" />
-      <item itemvalue="JUnit.AssertionsTest.assertEqualsListTest" />
-      <item itemvalue="JUnit.AssertionsTest.assertThrowsTest" />
-      <item itemvalue="JUnit.AssertionsTest.assertTrueTest" />
+      <item itemvalue="JUnit.AssertionsTest.assertForAnyOf" />
+      <item itemvalue="JUnit.AssertionsTest.assertForContainsAnyOrder" />
+      <item itemvalue="JUnit.AssertionsTest.assertForList" />
+      <item itemvalue="JUnit.AssertionsTest.assertForMapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AssertionsTest.assertForContainsAnyOrder" />
+        <item itemvalue="JUnit.AssertionsTest.assertForAnyOf" />
+        <item itemvalue="JUnit.AssertionsTest.assertForList" />
+        <item itemvalue="JUnit.AssertionsTest.assertForMapTest" />
         <item itemvalue="JUnit.AssertionsTest.assertAllTest" />
-        <item itemvalue="JUnit.AssertionsTest.assertThrowsTest" />
-        <item itemvalue="JUnit.AssertionsTest.assertTrueTest" />
-        <item itemvalue="JUnit.AssertionsTest.assertArraysEqualsTest" />
-        <item itemvalue="JUnit.AssertionsTest.assertEqualsListTest" />
       </list>
     </recent_temporary>
   </component>
